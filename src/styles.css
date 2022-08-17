@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+i,span
+{
+  cursor: pointer;
+}
+:root
+{
+  --bgLight:#24baef;
+  --borderColor:#a8a8a83d;
+  --bgDark:#131722;
+  --secondFontColor:#949cb0;
+}
+body
+{
+  background-color: var(--bgDark);
+  color: white;
+  font-family: 'Montserrat Alternates',sans-serif !important;
+  cursor: pointer;
+}
+input
+{
+  background-color: transparent !important;
+  color: white !important;
+}
+.brdr
+{
+  height: 1px;
+  background-color:var(--borderColor) ;
+}
+.navbar
+{
+  background-color: var(--bgDark) !important;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: white;
+}
+
